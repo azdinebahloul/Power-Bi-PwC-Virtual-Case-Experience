@@ -9,7 +9,10 @@ Join me on this exciting journey as we dive into the world of data analytics, ha
 ## Data Preparation
 Before diving into data analysis using Power BI, it is essential to perform data preparation tasks. Initially, the data provided by PwC had a specific format :
 
-![Image1](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20181850.png)
+<p align="center">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/raw/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20181850.png" alt="Image1" width="50%">
+</p>
+
 
 During the data preparation phase, we will clean and transform the data using Power Query as necessary. For example, we will extract call duration without its associated date and introduce a new category for answered calls. Additionally, we will create a conditional column based on customer ratings to assign a descriptive text to each rating. These steps are essential in ensuring that our data is in a suitable format for analysis in Power BI.
 
@@ -55,7 +58,7 @@ After creating our measures, we proceeded to design the visualizations that we d
 
 ![Image6](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20190635.png)
 
-> 💡:For all our visualizations, we have chosen to maintain consistency with PwC by primarily using a grayscale background and incorporating the company's official colors. The PricewaterhouseCoopers (PWC) logo colors include Black (#000000), Rufous (#AD1B02), Tenné (Tawny) (#D85604), Beer (#E88D14), Orange-Yellow (#F3BE26), and China Pink (#E669A2) (Source: The PricewaterhouseCoopers (PWC) Logo Colors with Hex & RGB Codes, April 4, 2020)
+> 💡For all our visualizations, we have chosen to maintain consistency with PwC by primarily using a grayscale background and incorporating the company's official colors. The PricewaterhouseCoopers (PWC) logo colors include Black (#000000), Rufous (#AD1B02), Tenné (Tawny) (#D85604), Beer (#E88D14), Orange-Yellow (#F3BE26), and China Pink (#E669A2) (Source: The PricewaterhouseCoopers (PWC) Logo Colors with Hex & RGB Codes, April 4, 2020)
 
 #### Average Customer Satisfaction
 To create the visual, I utilized three measures that were previously created for the ratings: Overall Customer Satisfaction Rating, Min rating, and Max rating.
