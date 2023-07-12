@@ -37,5 +37,51 @@ After cleaning and preparing our data using Power Query, we decided to start by 
 
 For example, leveraging our new column "CallsDuration," we created a measure to calculate the average call duration by utilizing the following DAX formula:
 
-![Image3](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20184804.png)
+![Image3](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20185434.png)
 
+We repeated the process until having all our measures of interest:
+
+![Image4](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20185629.png)
+
+### Data Visualization
+After creating our measures, we proceeded to design the visualizations that we deemed most relevant for the analysis.
+#### Calls by Date
+
+![Image5](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20190353.png)
+
+1. Constructed a **line chart** visualization.
+2. Utilized the **Date** column as input for the X-axis, representing the **timeline**.
+3. Used the **Call ID** column as input for the Y-axis, displaying the **count of Call IDs** over time.
+
+![Image6](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20190635.png)
+
+> 💡:For all our visualizations, we have chosen to maintain consistency with PwC by primarily using a grayscale background and incorporating the company's official colors. The PricewaterhouseCoopers (PWC) logo colors include Black (#000000), Rufous (#AD1B02), Tenné (Tawny) (#D85604), Beer (#E88D14), Orange-Yellow (#F3BE26), and China Pink (#E669A2) (Source: The PricewaterhouseCoopers (PWC) Logo Colors with Hex & RGB Codes, April 4, 2020)
+
+#### Average Customer Satisfaction
+To create the visual, I utilized three measures that were previously created for the ratings: Overall Customer Satisfaction Rating, Min rating, and Max rating.
+
+![Image7](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20191549.png)
+
+Using these measures, I built the visual with a gauge chart, following these steps:
+
+1. Set the **Overall Customer Rating** measure as the input for the "Value" parameter to display the **average rating**.
+2. Use **Min rating** as the input for the "Minimum Value" parameter to represent the **minimum rating**.
+3. Use **Max rating** for the "Maximum Value" parameter to showcase the **maximum rating**.
+
+![Image8](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20192308.png)
+
+#### Number of Call by Topic
+Now to display the number of calls per topic, I decided to create a grouped bar chart.
+
+![Image9](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20192524.png)
+
+1. Build visual with **grouped bar chart** (Horizontal)
+2. Input **Topic** column into Y-axis 
+3. Input **Call id** column into X-axis as **Count of call id**
+
+![Image10](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20192906.png)
+
+#### Call Satisfaction
+Using our new created column Satisfaction, we followed the same process as the previous chart to display the result in a beatiful grouped bar chart:
+
+![Image11](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20192524.png)
