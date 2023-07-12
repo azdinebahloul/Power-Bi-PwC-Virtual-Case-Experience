@@ -58,7 +58,7 @@ After creating our measures, we proceeded to design the visualizations that we d
 #### Calls by Date
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20190353.png" alt="Image5" width="50%">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20190353.png" alt="Image5" width="30%">
 </p>
 
 1. Constructed a **line chart** visualization.
@@ -66,7 +66,7 @@ After creating our measures, we proceeded to design the visualizations that we d
 3. Used the **Call ID** column as input for the Y-axis, displaying the **count of Call IDs** over time.
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20190635.png" alt="Image6" width="50%">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20190635.png" alt="Image6" width="30%">
 </p>
 
 > 💡For all our visualizations, we have chosen to maintain consistency with PwC by primarily using a grayscale background and incorporating the company's official colors. The PricewaterhouseCoopers (PWC) logo colors include Black (#000000), Rufous (#AD1B02), Tenné (Tawny) (#D85604), Beer (#E88D14), Orange-Yellow (#F3BE26), and China Pink (#E669A2) (Source: The PricewaterhouseCoopers (PWC) Logo Colors with Hex & RGB Codes, April 4, 2020)
@@ -75,7 +75,7 @@ After creating our measures, we proceeded to design the visualizations that we d
 To create the visual, I utilized three measures that were previously created for the ratings: Overall Customer Satisfaction Rating, Min rating, and Max rating.
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20191549.png" alt="Image7" width="50%">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20191549.png" alt="Image7" width="30%">
 </p>
 
 Using these measures, I built the visual with a gauge chart, following these steps:
@@ -85,14 +85,14 @@ Using these measures, I built the visual with a gauge chart, following these ste
 3. Use **Max rating** for the "Maximum Value" parameter to showcase the **maximum rating**.
    
 <p align="center">
-  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20192308.png" alt="Image8" width="50%">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20192308.png" alt="Image8" width="30%">
 </p>
 
 #### Number of Call by Topic
 Now to display the number of calls per topic, I decided to create a grouped bar chart.
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20192524.png" alt="Image9" width="50%">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20192524.png" alt="Image9" width="30%">
 </p>
 
 1. Build visual with **grouped bar chart** (Horizontal)
@@ -100,14 +100,14 @@ Now to display the number of calls per topic, I decided to create a grouped bar 
 3. Input **Call id** column into X-axis as **Count of call id**
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20192906.png" alt="Image10" width="50%">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20192906.png" alt="Image10" width="30%">
 </p>
 
 #### Call Satisfaction
 Using our new created column Satisfaction, we followed the same process as the previous chart to display the result in a beatiful grouped bar chart:
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20193343.png" alt="Image11" width="50%">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20193343.png" alt="Image11" width="30%">
 </p>
 
 1. Build visual with **grouped bar chart** (Horizontal)
@@ -115,14 +115,14 @@ Using our new created column Satisfaction, we followed the same process as the p
 3. Input **Call id** column into X-axis as **Count of call id**
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20193318.png" alt="Image12" width="50%">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20193318.png" alt="Image12" width="30%">
 </p>
 
 #### Call Resolved 
 Then, we visualized the number of resolved and unresolved calls using a pie chart, effectively representing the distribution between the two categories.
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20195942.png" alt="Image13" width="50%">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20195942.png" alt="Image13" width="30%">
 </p>
 
 1. Build visual with **pie chart**
@@ -131,14 +131,14 @@ Then, we visualized the number of resolved and unresolved calls using a pie char
 4. Input **Resolved** column into Details
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20200325.png" alt="Image14" width="50%">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20200325.png" alt="Image14" width="30%">
 </p>
 
 #### Agent & Date Slicer
 Lastly, we added two slicers to our dashboard, enabling us to filter the data based on date and individual agents. This allows us to analyze the data based on specific time periods and examine the performance of each agent individually.
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20195706.png" alt="Image15" width="50%">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20195706.png" alt="Image15" width="30%">
 </p>
 
 ### Dashboard
@@ -151,13 +151,13 @@ That concludes the Call Center Trends Analysis. Below is the comprehensive dashb
 ## Customer Churn Analysis
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20145247.png" alt="Image17" width="50%">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-27%20145247.png" alt="Image17" width="50%">
 </p>
 
 ## Diversity & Inclusion Analysis
 
 <p align="center">
-  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20162413.png" alt="Image18" width="50%">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-07-02%20162413.png" alt="Image18" width="50%">
 </p>
 
 
