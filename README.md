@@ -19,7 +19,9 @@ During the data preparation phase, we will clean and transform the data using Po
 ## Call Center Analysis 
 The goal is to design a visually appealing and user-friendly dashboard that effectively communicates the relevant information to Claire. Unleashing my creativity and thinking outside the box has allowed me to develop compelling visualizations that showcase the data in an impactful way.
 
-![Image2](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Screen%20Shot%202021-06-15%20at%205.23.06%20PM.png)
+<p align="center">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Screen%20Shot%202021-06-15%20at%205.23.06%20PM.png" alt="Image2" width="50%">
+</p>
 
 As we embark on this journey, we will prioritize the following KPIs (but not limited to) to guide our dashboard design:
 
@@ -40,7 +42,9 @@ After cleaning and preparing our data using Power Query, we decided to start by 
 
 For example, leveraging our new column "CallsDuration," we created a measure to calculate the average call duration by utilizing the following DAX formula:
 
-![Image3](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20185434.png)
+<p align="center">
+  <img src="https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20185434.png" alt="Image3" width="50%">
+</p>
 
 We repeated the process until having all our measures of interest:
 
