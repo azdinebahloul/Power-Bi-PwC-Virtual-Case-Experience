@@ -84,4 +84,43 @@ Now to display the number of calls per topic, I decided to create a grouped bar 
 #### Call Satisfaction
 Using our new created column Satisfaction, we followed the same process as the previous chart to display the result in a beatiful grouped bar chart:
 
-![Image11](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20192524.png)
+![Image11](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20193343.png)
+
+1. Build visual with **grouped bar chart** (Horizontal)
+2. Input **Satisfaction** column into Y-axis 
+3. Input **Call id** column into X-axis as **Count of call id**
+
+![Image12](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20193318.png)
+
+#### Call Resolved 
+Then, we visualized the number of resolved and unresolved calls using a pie chart, effectively representing the distribution between the two categories.
+
+![Image13](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20195942.png)
+
+1. Build visual with **pie chart**
+2. Input **Resolved** column into Legend
+3. Input **Call id** column into **Valuesb** as **Count of Call id**
+4. Input **Resolved** column into Details
+
+![Image14](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20200325.png)
+
+#### Agent & Date Slicer
+Lastly, we added two slicers to our dashboard, enabling us to filter the data based on date and individual agents. This allows us to analyze the data based on specific time periods and examine the performance of each agent individually.
+
+![Image15](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20195706.png)
+
+### Dashboard
+That concludes the Call Center Trends Analysis. Below is the comprehensive dashboard representing the complete analysis of Call Center Trends.
+
+![Image16](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20202301.png)
+
+## Customer Churn Analysis
+
+![Image17](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-27%20145247.png)
+
+## Diversity & Inclusion Analysis
+
+![Image18](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-07-02%20162413.png)
+
+
+
