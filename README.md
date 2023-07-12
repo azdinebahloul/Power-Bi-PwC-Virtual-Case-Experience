@@ -9,4 +9,4 @@ Join me on this exciting journey as we dive into the world of data analytics, ha
 ## Data Preparation
 Before diving into data analysis using Power BI, it is essential to perform data preparation tasks. Initially, the data provided by PwC had a specific format :
 
-![Image1](Projet professionnel/PwC Virtual Case/Screenshots/Capture d'écran 2023-06-23 181850.png)
+![Image1](https://github.com/azdinebahloul/Power-Bi-PwC-Virtual-Case-Experience/blob/main/Screenshots/Capture%20d'%C3%A9cran%202023-06-23%20181850.png)
