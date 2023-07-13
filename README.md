@@ -1,4 +1,4 @@
-# Power Bi-PwC-Virtual-Case-Experince
+# Power Bi-PwC-Virtual-Case-Experience
 ## Introduction
 Welcome to the PwC Switzerland Power BI Virtual Case Internship! This internship project focuses on leveraging the power of Microsoft Power BI for data analysis and visualization. Our goal is to create a comprehensive dashboard that provides valuable insights and facilitates informed decision-making.
 
